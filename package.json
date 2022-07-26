@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "run": "npx hardhat run scripts/run.ts"
+        "run": "npx hardhat run scripts/run.ts",
+        "deploy-l": "npx hardhat run scripts/deploy.ts --network localhost"
     },
     "keywords": [],
     "author": "",
